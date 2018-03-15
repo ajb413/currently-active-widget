@@ -32,7 +32,7 @@ function setCurrentlyActiveUsers(numberOfUsers) {
 
 setCurrentlyActiveUsers(0);
 
-pubnub = new PubNub({
+var pubnub = new PubNub({
     publishKey : '__YOUR_PUB_KEY__',
     subscribeKey : '__YOUR_SUB_KEY__',
     heartbeatInterval: 30
