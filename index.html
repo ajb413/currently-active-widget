@@ -30,11 +30,11 @@ function setCurrentlyActiveUsers(numberOfUsers) {
   active.innerText = numberOfUsers.toString();
 }
 
-setCurrentlyActiveUsers(0);
+setCurrentlyActiveUsers(1);
 
 var pubnub = new PubNub({
-    publishKey : '__YOUR_PUB_KEY__',
-    subscribeKey : '__YOUR_SUB_KEY__',
+    publishKey : 'pub-c-adc73554-20e8-4129-ade9-cd6120788b0c',
+    subscribeKey : 'sub-c-a4867074-28d3-11e8-ae0d-3a0cea6ae1c4',
     heartbeatInterval: 30
 });
 
